@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-12T04:10:47.214Z",
+        "line": 15,
+        "name": "User can search for an item",
+        "description": "",
+        "id": "as-a-user;user-can-search-for-an-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to next.co.uk",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I type a \"ladies shoes\" in the search bar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "search result page is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "only searched items are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-12T04:10:47.286Z",
+        "line": 16,
+        "name": "User can search for an item",
+        "description": "",
+        "id": "as-a-user;user-can-search-for-an-item;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to next.co.uk",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I type a \"men\u0027s boxers\" in the search bar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "search result page is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "only searched items are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user",
+    "description": "  I want to be able to search an item\n  So I can see available options",
+    "id": "as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/next/features/CustomerCanSearchForItem.feature",
+    "tags": []
+  }
+]
