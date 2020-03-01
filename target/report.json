@@ -3,96 +3,104 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-12T04:10:47.214Z",
-        "line": 15,
-        "name": "User can search for an item",
+        "start_timestamp": "2020-03-01T03:19:59.259Z",
+        "line": 16,
+        "name": "User can do a valid search with multiple keywords",
         "description": "",
-        "id": "as-a-user;user-can-search-for-an-item;;2",
+        "id": "as-a-user;user-can-do-a-valid-search-with-multiple-keywords;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 92200,
+              "status": "passed"
             },
             "line": 8,
             "name": "I navigate to next.co.uk",
-            "match": {},
+            "match": {
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_navigate_to_next_co_uk()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 9,
-            "name": "I type a \"ladies shoes\" in the search bar",
-            "match": {},
+            "name": "I do a multiple keyword search for \"ladies shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ladies shoes\"",
+                  "offset": 35
+                }
+              ],
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_do_a_multiple_keyword_search_for(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 10,
-            "name": "search result page is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "name": "I see a multiple keyword search result page with more than zero results",
+            "match": {
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_see_a_multiple_keyword_search_result_page_with_more_than_zero_results()"
             },
-            "line": 11,
-            "name": "only searched items are displayed",
-            "match": {},
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-12T04:10:47.286Z",
-        "line": 16,
-        "name": "User can search for an item",
+        "start_timestamp": "2020-03-01T03:19:59.310Z",
+        "line": 17,
+        "name": "User can do a valid search with multiple keywords",
         "description": "",
-        "id": "as-a-user;user-can-search-for-an-item;;3",
+        "id": "as-a-user;user-can-do-a-valid-search-with-multiple-keywords;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 8,
             "name": "I navigate to next.co.uk",
-            "match": {},
+            "match": {
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_navigate_to_next_co_uk()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 9,
-            "name": "I type a \"men\u0027s boxers\" in the search bar",
-            "match": {},
+            "name": "I do a multiple keyword search for \"men\u0027s boxers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"men\u0027s boxers\"",
+                  "offset": 35
+                }
+              ],
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_do_a_multiple_keyword_search_for(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 997400,
+              "status": "passed"
             },
             "line": 10,
-            "name": "search result page is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "name": "I see a multiple keyword search result page with more than zero results",
+            "match": {
+              "location": "co.uk.next.stepDefinitions.SearchForItemsStepsDefinition.i_see_a_multiple_keyword_search_result_page_with_more_than_zero_results()"
             },
-            "line": 11,
-            "name": "only searched items are displayed",
-            "match": {},
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       }

@@ -3,12 +3,13 @@ Feature: As a user
   So I can see available options
 
 
-  Scenario Outline:User can search for an item
+  Scenario Outline:User can do a valid search with multiple keywords
 
     Given I navigate to next.co.uk
-    When I type a "<SearchWord>" in the search bar
-    Then search result page is displayed
-    And only searched items are displayed
+    When I do a multiple keyword search for "<SearchWord>"
+    Then I see a multiple keyword search result page with more than zero results
+
+
 
     Examples:
       |SearchWord|
